@@ -40,7 +40,7 @@ public class BookManager {
 		if(book != null) {
 			return book;
 		} else {
-			throw new BookManagerException("검색된 도서가 없습니다.\n");
+			throw new BookManagerException("검색된 책이 없습니다.\n");
 		}
 
 	}
